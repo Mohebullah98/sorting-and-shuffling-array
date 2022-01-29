@@ -13,6 +13,7 @@ class Main {
     int index =0;
     for(int i=0;i<Array.length;i++){
       int min = Array[pivot];
+      index=pivot;
       for(int j=pivot;j<Array.length;j++){
         if (Array[j]<min) {
           min = Array[j];
